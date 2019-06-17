@@ -1,0 +1,31 @@
+.sidenav {
+  height: 100%;
+  width: 214px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+
+}
+.sidenav li a:hover, .sidenav select:hover {
+  color: #f1f1f1;
+}
+.sidenav select{
+    display: block;
+    text-decoration: none;
+    font-size: 19px;
+    font-style: unset;
+    margin: 8px;;
+    color: #818181;
+    outline: none;
+    background-color: #111;
+    border: none;
+
+}
+.sidenav a {
+    text-decoration: none;
+    color: #818181;
+}
