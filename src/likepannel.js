@@ -59,8 +59,9 @@ export default class Like extends React.Component{
 					</tbody>
 				</table>
 				<table>
-					<tr>
-						{
+					<tbody>
+						<tr>
+							{
 										this.state.messageclick 
   										? <div>
 								  				 <TextField
@@ -72,8 +73,9 @@ export default class Like extends React.Component{
 								  			</div>
 								  		
 								  	  : null
-						}
-					</tr>
+							}
+						</tr>
+					</tbody>
 				</table>
 			</div>
 		);
